@@ -28,11 +28,11 @@ print(cx_cnt)
 print(total_cnt)
 print(qc.depth())
 
-    '''state = Statevector.from_label('+' * n)
-    state = state.evolve(qc).data
-    state -= state[0]
-    state = np.round(state, 5)
+'''state = Statevector.from_label('+' * n)
+state = state.evolve(qc).data
+state -= state[0]
+state = np.round(state, 5)
 
-    print(n, np.count_nonzero(state))'''
+print(n, np.count_nonzero(state))'''
 
 
